@@ -1,0 +1,234 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<script src="js/funciones.js" type="text/javascript"></script>
+</head> 
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>LOS AMIGOS</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Historia" data-transition="flip">HISTORIA</a></li>
+            <li><a href="#Amigos" data-transition="slidedown">AMIGOS</a></li>
+			<li><a href="#Galeria" data-transition="pop">GALERIA</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<div data-role="navbar" data-iconpos="top">
+	<ul>
+        <li>
+        <a href="#page" data-transition="slide" data-icon="home"> 
+        INICIO 
+        </a>
+       </li>
+          <li>
+            <a href="#ayuda" data-transition="slide" data-icon="info">
+            AYUDA
+            </a>
+          </li>
+        <li>
+            <a href="#contacto" data-transition="slide" data-icon="alert">
+            CONTACTO
+            </a>
+        </li>
+     </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Historia">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
+		<h1>HISTORIA :3</h1>
+	</div>
+	<div data-role="content">	
+		    <center>
+    	Desliza la imagen pra ver los nombres<br>
+      <img src="imagenes/XD.png" id="ami" width="250" height="150">
+      <br> <span id="s1" style="color:#36C"></span>
+      <p>
+  Esta es la historia de unos amigos muy curiosos entre ellos se encuentra la chica con los ojos mas lindos & carismaticos del salon & sin decir con esas pestañas que cautivan mucho ella es Raquel es la persona mas responsable que entrega todo & bueno a casi a todos nos pasa la tarea que esta dificil, otra de las chicas mas lindas es la casi mama alexia sin duda sera una gran madre para su lindo bebe que sera llamado santiago pero yo le dire santi de cariño, ella es de las personas que hace que reflexiones & entiendas que aveces las cosas estan muy mal & nos regaña ,muy feo, bueno el otro chavo es Alberto bueno el es de esas personasque casi no hablan pero espero que sea un buen papa del bebe santi por que aveces es muy enojon. Tambien beto es de esas personas carismaticas ha & por cierto es muy guapo, bueno por otra esta el amigo Angel es la persona mas timida, enojon, raro buenoen fin tiene sentimientos raros pero aun asi es un gran amigo & lo quiero muchisimo por que siempre me acompañaba cuando nos ivamos dela escuela & bueno ahora ya no se va tanto conmigo por que bueno hace servicio & no le da tiempo pero aun asi es un gran amigo & no lo cambio por nada, & bueno al final yo la chica que los hace de reir con cualquier cosa bueno ellos que harian sin mi, soy de esas que dejan todo al final, medio inresponsable pero soy buena amiga con ellos & mi lema es "La sinceridad es primero".
+  </center>
+		
+	</div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<div data-role="navbar" data-iconpos="top">
+	<ul>
+        <li>
+        <a href="#page" data-transition="slide" data-icon="home"> 
+        INICIO 
+        </a>
+       </li>
+          <li>
+            <a href="#ayuda" data-transition="slide" data-icon="info">
+            AYUDA
+            </a>
+          </li>
+        <li>
+            <a href="#contacto" data-transition="slide" data-icon="alert">
+            CONTACTO
+            </a>
+        </li>
+     </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Amigos">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
+		<h1>AMIGOS</h1>
+	</div>
+	<div data-role="content">	
+    	<center>
+		<img src="imagenes/ami2.png" width="300" id="am" height="300" alt="ami2"> <br>
+        Desliza las imagenes para ver las descripciones<br>
+        <img src="imagenes/ale.png" id="a" width="150" height="200"> <br>
+       	<span id="s2" style="color:#36C"></span><p>
+        <img src="imagenes/jaque.png" id="b" width="150" height="200"><br>
+        <span id="s3" style="color:#C61BDE"></span><p>
+        <img src="imagenes/t.png" id="c" width="150" height="200"><br>
+        <span id="s4" style="color:#66F"></span><p><img src="imagenes/a.png" id="d" width="150" height="200"><br>
+        <span id="s5" style="color:#F63"></span><p>
+        <img src="imagenes/al.png" id="e" width="150" height="200"><p>
+        <span id="s6" style="color:#06F"></span><p>
+        </center>	
+	</div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<div data-role="navbar" data-iconpos="top">
+	<ul>
+        <li>
+        <a href="#page" data-transition="slide" data-icon="home"> 
+        INICIO 
+        </a>
+       </li>
+          <li>
+            <a href="#ayuda" data-transition="slide" data-icon="info">
+            AYUDA
+            </a>
+          </li>
+        <li>
+            <a href="#contacto" data-transition="slide" data-icon="alert">
+            CONTACTO
+            </a>
+        </li>
+     </ul>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="Galeria">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
+		<h1>GALERIA</h1>
+	</div>
+	<div data-role="content">	
+    <center>
+    <img src="imagenes/des.png" width="150" height="150"> 
+    <img src="imagenes/Alexia.png" width="150" height="150">
+    <img src="imagenes/cor.png" width="150" height="150"><br>
+    <img src="imagenes/e.png" width="150" height="150"> 
+    <img src="imagenes/e2.png" width="150" height="150">
+    <img src="imagenes/g.png" width="150" height="150"><br>
+    <img src="imagenes/i.png" width="150" height="150">
+    <img src="imagenes/imagen669.png" width="150" height="150">
+    <img src="imagenes/jr.png" width="150" height="150"><br>
+    <img src="imagenes/r.png" width="150" height="150">
+    <img src="imagenes/s.png" width="150" height="150">
+    <img src="imagenes/v.png" width="150" height="150"><br>
+    <img src="imagenes/yo.png" width="150" height="150">
+    <img src="imagenes/misamigos.png" width="150" height="150"> <img src="imagenes/yolo.png" width="150" height="150">
+    </center>
+    </div>
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<div data-role="navbar" data-iconpos="top">
+	<ul>
+        <li>
+        <a href="#page" data-transition="slide" data-icon="home"> 
+        INICIO 
+        </a>
+       </li>
+          <li>
+            <a href="#ayuda" data-transition="slide" data-icon="info">
+            AYUDA
+            </a>
+          </li>
+        <li>
+            <a href="#contacto" data-transition="slide" data-icon="alert">
+            CONTACTO
+            </a>
+        </li>
+     </ul>
+    </div>
+	</div>
+</div>
+<div data-role="page" id="contacto">
+<div data-role="header" >
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
+		<h1>CONTACTANOS</h1>
+	</div>
+    
+	<div data-role="content">	
+    	<center>
+        <p>Desliza la imagen para ver donde nos pueden contactar</p><br>
+      <img src="imagenes/contacto.png" id="con" width="360" height="300"><br> <span id="s8" style="color:#B9313F"></span><p>	</center>
+	</div>
+    
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+    	<div data-role="navbar" data-iconpos="top">
+    <ul>
+    <li>
+    	<a href="#page" data-transition="flip" data-icon="home"> INICIO </a>
+    </li>
+    <li>
+    	<a href="#ayuda" data-transition="slide" data-icon="info"> AYUDA </a>
+    </li>
+    <li>
+    	<a href="#contacto" data-transition="slideup" data-icon="alert"> CONTACTO </a>
+     </li>
+     </ul>
+	</div>
+    </div>
+    
+</div>
+
+<div data-role="page" id="ayuda">
+	
+    <div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back"> ATRAS </a>
+		<h1>AYUDA</h1>
+	</div>
+    
+	<div data-role="content">	
+   		 <center>
+   		 <p>Desliza la imagen</p><br>
+   		 <img src="imagenes/ayuda.png" id="ay" width="200" height="250"><br><span id="s7" style="color:#36C"></span><p> 
+        </center>
+    </div>
+    
+	<div data-role="footer" data-position="fixed" data-fullscreen="true">
+    	<div data-role="navbar" data-iconpos="top">
+   	 <ul>
+   	 <li>
+    	<a href="#page" data-transition="flip" data-icon="home"> INICIO </a>
+   	 </li>
+   	 <li>
+   	 	<a href="#ayuda" data-transition="slide" data-icon="info"> AYUDA </a></li>
+   	 <li>
+    	<a href="#contacto" data-transition="slideup" data-icon="alert"> CONTACTO </a>
+     </li>
+     </ul>
+	</div>
+    </div>
+</div>
+</body>
+</html>
